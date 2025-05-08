@@ -31,6 +31,7 @@ logged_unknown_cmds = {
     'ONLINE_RANK_COUNT',
     'ONLINE_RANK_TOP3',
     'ONLINE_RANK_V2',
+
     # 'PK_BATTLE_END',
     # 'PK_BATTLE_FINAL_PROCESS',
     # 'PK_BATTLE_PROCESS',
@@ -47,6 +48,19 @@ logged_unknown_cmds = {
     'STOP_LIVE_ROOM_LIST', # 停止直播房间通知？command={'cmd': 'STOP_LIVE_ROOM_LIST', 'data': {'room_id_list': [26134056, 27733015, 30241196, 3111310, 31210096, 31633765, 583957, 132630, 13605776, 1878685, 22254974, 26347978, 26646310, 30131067, 31043525, 31883577, 9068894, 21473355, 22376685, 22479025, 23072802, 23692844, 26364316, 27183535, 30908405, 31183446, 31412845, 31599685, 346947, 5581190, 714445, 11948353, 21602575, 2175284, 24840855, 27205276, 31002575, 31745517, 31814106, 31822065, 3406491, 5466700, 14808633, 24362801, 26193324, 27617835, 2851255, 30230515, 31309055, 31572045, 31792466, 31844625, 31883095, 31883446, 4329180, 13407895, 23776755, 25857732, 27568487, 27822717, 31583737, 31883513, 5473867, 9488965, 11853957, 24590414, 27566417, 30563397, 31061877, 31570617, 31583726, 31765226, 3436197, 13934740, 2044107, 25270307, 26914407, 27816937, 30241167, 5556097, 26320860, 269655, 27183177, 27777747, 27880760, 2826764, 30637667, 31049780, 31535426, 2283471, 24797968, 27907920, 30524453, 31146690, 31207910, 31542580, 31764770, 31782448, 2065784, 23534120, 24909030, 26914140, 27778610, 30184630, 30911422, 31354446, 31693750, 31710427, 6627923, 9056564, 14920605, 25431380, 30198500, 30382320, 31313400, 31672956, 8437310, 1758371, 23361799, 22504516, 22886883, 23387005, 30098122, 23747371, 508371, 5612200, 8287300, 10422640, 11644391, 25674182, 2695765, 27771538, 30007971, 5126047, 9318162, 12487527, 14643888, 21075066, 22841601, 22898134, 10485486, 26860584, 27149142, 31497643, 15106058, 26656064, 27930777, 31379695, 4261325, 12066164, 21441782, 25424943, 27878493, 27962953, 30961365, 31819604, 6159041, 8892113, 13817334, 22598619, 30193671, 31675309, 26843755, 26998825, 30911742, 806038, 25114227, 30970679, 24369111, 25674623, 264110, 31311768, 31727993, 5334517, 63258, 150596, 22717970, 22730263, 25674511, 31619124, 31871974, 363485, 23530960, 24228718, 30339892, 31100672, 1366096, 27633961, 2847091, 6806182, 26209819, 2708384, 27487787, 30394118, 31587278, 31615570, 12216533, 14982610, 2398772, 26049768, 26079169, 26548927, 30301316, 30339901, 30636547, 11633159, 23570440]}}
     'ENTRY_EFFECT_MUST_RECEIVE', # 空房间？command={'cmd': 'ENTRY_EFFECT_MUST_RECEIVE', 'data': {'id': 136, 'uid': 412847209, 'target_id': 412847209, 'mock_effect': 0, 'face': 'https://i1.hdslb.com/bfs/face/759f1c2cd63246dc2ac321186cf532579c18ca5a.jpg', 'privilege_type': 0, 'copy_writing': '欢迎 <%老狗自闭%> 进入直播间', 'copy_color': '#000000', 'highlight_color': '#FFF100', 'priority': 1, 'basemap_url': 'https://i0.hdslb.com/bfs/live/mlive/d4708dee21646e6ebcc58e7f6fa2a972c1d25b36.png', 'show_avatar': 1, 'effective_time': 2, 'web_basemap_url': 'https://i0.hdslb.com/bfs/live/mlive/d4708dee21646e6ebcc58e7f6fa2a972c1d25b36.png', 'web_effective_time': 2, 'web_effect_close': 0, 'web_close_time': 900, 'business': 3, 'copy_writing_v2': '欢迎 <^icon^> <%老狗自闭%> 进入直播间', 'icon_list': [2], 'max_delay_time': 7, 'trigger_time': 1706283359662552605, 'identities': 22, 'effect_silent_time': 0, 'effective_time_new': 0, 'web_dynamic_url_webp': '', 'web_dynamic_url_apng': '', 'mobile_dynamic_url_webp': '', 'wealthy_info': None, 'new_style': 0, 'is_mystery': False, 'uinfo': {'uid': 412847209, 'base': {'name': '老狗自闭', 'face': 'https://i1.hdslb.com/bfs/face/759f1c2cd63246dc2ac321186cf532579c18ca5a.jpg', 'name_color': 0, 'is_mystery': False, 'risk_ctrl_info': {'name': '老狗自闭', 'face': 'https://i1.hdslb.com/bfs/face/759f1c2cd63246dc2ac321186cf532579c18ca5a.jpg'}, 'origin_info': {'name': '老狗自闭', 'face': 'https://i1.hdslb.com/bfs/face/759f1c2cd63246dc2ac321186cf532579c18ca5a.jpg'}, 'official_info': {'role': 0, 'title': '', 'desc': '', 'type': -1}}, 'medal': None, 'wealth': None, 'title': None, 'guard': None, 'uhead_frame': None, 'guard_leader': None}}}
     'ROOM_CHANGE', # 关闭直播？ command={'cmd': 'ROOM_CHANGE', 'data': {'title': '裸辞直播：今天研究一下B站弹幕姬', 'area_id': 372, 'parent_area_id': 11, 'area_name': '校园学习', 'parent_area_name': '知识', 'live_key': '0', 'sub_session_key': ''}}
+    'PK_BATTLE_END',
+    'PK_BATTLE_FINAL_PROCESS',
+    'PK_BATTLE_PROCESS',
+    'PK_BATTLE_PROCESS_NEW',
+    'PK_BATTLE_SETTLE',
+    'PK_BATTLE_SETTLE_USER',
+    'PK_BATTLE_SETTLE_V2',
+    'PREPARING',
+    'ROOM_REAL_TIME_MESSAGE_UPDATE',
+    'STOP_LIVE_ROOM_LIST',
+    'SUPER_CHAT_MESSAGE_JPN',
+    'USER_TOAST_MSG',
+    'WIDGET_BANNER',
     'TRADING_SCORE', # command={'cmd': 'TRADING_SCORE', 'data': {'bubble_show_time': 3, 'num': 2, 'score_id': 3, 'uid': 412847209, 'update_time': 1706173741, 'update_type': 1}}
     'SPREAD_ORDER_START', # command={'cmd': 'SPREAD_ORDER_START', 'data': {'order_id': 5862464, 'order_status': 1, 'roomid': 30886597, 'timestamp': 1706173750, 'uid': 412847209}}
     'SPREAD_ORDER_OVER', # command={'cmd': 'SPREAD_ORDER_OVER', 'data': {'order_id': 5862464, 'order_status': 0, 'timestamp': 1706175599, 'uid': 412847209}}
@@ -91,27 +105,39 @@ class BaseHandler(HandlerInterface):
             ['BaseHandler', ws_base.WebSocketClientBase, dict],
             Any
         ]]
-    ] = {
+    ]
+    """cmd -> 处理回调"""
+    _CMD_CALLBACK_DICT = {
         # 收到心跳包，这是blivedm自造的消息，原本的心跳包格式不一样
         '_HEARTBEAT': _make_msg_callback('_on_heartbeat', web_models.HeartbeatMessage),
         # 'ENTRY_EFFECT':
         # 收到弹幕
+        # 弹幕
         # go-common\app\service\live\live-dm\service\v1\send.go
         'DANMU_MSG': __danmu_msg_callback,
-        # 有人送礼
+        # 礼物
         'SEND_GIFT': _make_msg_callback('_on_gift', web_models.GiftMessage),
+
         # 有人送礼-新礼物？
         'POPULARITY_RED_POCKET_V2_NEW': _make_msg_callback('_on_red_pocket', web_models.RedPocketMessage),
+
         # 特殊弹幕通知
         # 'COMMON_NOTICE_DANMAKU': _make_msg_callback('_on_spacial_danmaku', web_models.SpacialDanMaku),
         # 进入直播间
-        'INTERACT_WORD': _make_msg_callback('_on_enter', web_models.UserInData),
+        'INTERACT_WORD': _make_msg_callback('_on_inter', web_models.UserInData),
+        # 进入房间、关注主播等互动消息
+        # 'INTERACT_WORD': _make_msg_callback('_on_interact_word', web_models.InteractWordMessage),
+
         # 有人上舰
+        # 上舰
         'GUARD_BUY': _make_msg_callback('_on_buy_guard', web_models.GuardBuyMessage),
+        # 另一个上舰消息
+        'USER_TOAST_MSG_V2': _make_msg_callback('_on_user_toast_v2', web_models.UserToastV2Message),
         # 醒目留言
         'SUPER_CHAT_MESSAGE': _make_msg_callback('_on_super_chat', web_models.SuperChatMessage),
         # 删除醒目留言
         'SUPER_CHAT_MESSAGE_DELETE': _make_msg_callback('_on_super_chat_delete', web_models.SuperChatDeleteMessage),
+
         # 点赞开始触发：command={'cmd': 'LIKE_INFO_V3_CLICK', 'data': {'show_area': 1, 'msg_type': 6, 'like_icon': 'https://i0.hdslb.com/bfs/live/23678e3d90402bea6a65251b3e728044c21b1f0f.png', 'uid': 90383004, 'like_text': '为主播点赞了', 'uname': '月上小狗', 'uname_color': '', 'identities': [1], 'fans_medal': {'target_id': 0, 'medal_level': 0, 'medal_name': '', 'medal_color': 0, 'medal_color_start': 12632256, 'medal_color_end': 12632256, 'medal_color_border': 12632256, 'is_lighted': 0, 'guard_level': 0, 'special': '', 'icon_id': 0, 'anchor_roomid': 0, 'score': 0}, 'contribution_info': {'grade': 0}, 'dmscore': 20, 'group_medal': None, 'is_mystery': False, 'uinfo': {'uid': 90383004, 'base': {'name': '月上小狗', 'face': 'https://i0.hdslb.com/bfs/face/a3720664af7a993fc45ce48f190d02913d1f2c85.jpg', 'name_color': 0, 'is_mystery': False, 'risk_ctrl_info': None, 'origin_info': {'name': '月上小狗', 'face': 'https://i0.hdslb.com/bfs/face/a3720664af7a993fc45ce48f190d02913d1f2c85.jpg'}, 'official_info': {'role': 0, 'title': '', 'desc': '', 'type': -1}}, 'medal': None, 'wealth': None, 'title': None, 'guard': {'level': 0, 'expired_str': ''}}}}
         'LIKE_INFO_V3_CLICK': _make_msg_callback('_click_like', web_models.ClickData),
         # 点赞结束触发：command = {'cmd': 'LIKE_INFO_V3_UPDATE', 'data': {'click_count': 171}}  应该是该点赞观众在本次直播中的汇总次数，不分时间
@@ -121,11 +147,11 @@ class BaseHandler(HandlerInterface):
         # 开放平台消息
         #
 
-        # 收到弹幕
+        # 弹幕
         'LIVE_OPEN_PLATFORM_DM': _make_msg_callback('_on_open_live_danmaku', open_models.DanmakuMessage),
-        # 有人送礼
+        # 礼物
         'LIVE_OPEN_PLATFORM_SEND_GIFT': _make_msg_callback('_on_open_live_gift', open_models.GiftMessage),
-        # 有人上舰
+        # 上舰
         'LIVE_OPEN_PLATFORM_GUARD': _make_msg_callback('_on_open_live_buy_guard', open_models.GuardBuyMessage),
         # 醒目留言
         'LIVE_OPEN_PLATFORM_SUPER_CHAT': _make_msg_callback('_on_open_live_super_chat', open_models.SuperChatMessage),
@@ -135,8 +161,13 @@ class BaseHandler(HandlerInterface):
         ),
         # 点赞
         'LIVE_OPEN_PLATFORM_LIKE': _make_msg_callback('_on_open_live_like', open_models.LikeMessage),
+        # 进入房间
+        'LIVE_OPEN_PLATFORM_LIVE_ROOM_ENTER': _make_msg_callback('_on_open_live_enter_room', open_models.RoomEnterMessage),
+        # 开始直播
+        'LIVE_OPEN_PLATFORM_LIVE_START': _make_msg_callback('_on_open_live_start_live', open_models.LiveStartMessage),
+        # 结束直播
+        'LIVE_OPEN_PLATFORM_LIVE_END': _make_msg_callback('_on_open_live_end_live', open_models.LiveEndMessage),
     }
-    """cmd -> 处理回调"""
 
     def handle(self, client: ws_base.WebSocketClientBase, command: dict):
         cmd = command.get('cmd', '')
@@ -156,9 +187,7 @@ class BaseHandler(HandlerInterface):
             callback(self, client, command)
 
     def _on_heartbeat(self, client: ws_base.WebSocketClientBase, message: web_models.HeartbeatMessage):
-        """
-        收到心跳包
-        """
+        """收到心跳包"""
 
     def _on_enter(self, client: ws_base.WebSocketClientBase, data: web_models.UserInData):
         """
@@ -166,9 +195,7 @@ class BaseHandler(HandlerInterface):
         """
 
     def _on_danmaku(self, client: ws_base.WebSocketClientBase, message: web_models.DanmakuMessage):
-        """
-        收到弹幕
-        """
+        """弹幕"""
 
     def _on_spacial_danmaku(self, client: ws_base.WebSocketClientBase, message: web_models.SpacialDanMaku):
         """
@@ -181,14 +208,13 @@ class BaseHandler(HandlerInterface):
         """
 
     def _on_gift(self, client: ws_base.WebSocketClientBase, message: web_models.GiftMessage):
-        """
-        收到礼物
-        """
+        """礼物"""
 
     def _on_buy_guard(self, client: ws_base.WebSocketClientBase, message: web_models.GuardBuyMessage):
-        """
-        有人上舰
-        """
+        """上舰"""
+
+    def _on_user_toast_v2(self, client: ws_base.WebSocketClientBase, message: web_models.UserToastV2Message):
+        """另一个上舰消息"""
 
     def _click_like(self, client: ws_base.WebSocketClientBase, data: web_models.ClickData):
         """
@@ -196,51 +222,43 @@ class BaseHandler(HandlerInterface):
         """
 
     def _on_super_chat(self, client: ws_base.WebSocketClientBase, message: web_models.SuperChatMessage):
-        """
-        醒目留言
-        """
+        """醒目留言"""
 
-    def _on_super_chat_delete(
-        self, client: ws_base.WebSocketClientBase, message: web_models.SuperChatDeleteMessage
-    ):
-        """
-        删除醒目留言
-        """
+    def _on_super_chat_delete(self, client: ws_base.WebSocketClientBase, message: web_models.SuperChatDeleteMessage):
+        """删除醒目留言"""
+
+    def _on_interact_word(self, client: ws_base.WebSocketClientBase, message: web_models.InteractWordMessage):
+        """进入房间、关注主播等互动消息"""
 
     #
     # 开放平台消息
     #
 
     def _on_open_live_danmaku(self, client: ws_base.WebSocketClientBase, message: open_models.DanmakuMessage):
-        """
-        收到弹幕
-        """
+        """弹幕"""
 
     def _on_open_live_gift(self, client: ws_base.WebSocketClientBase, message: open_models.GiftMessage):
-        """
-        收到礼物
-        """
+        """礼物"""
 
     def _on_open_live_buy_guard(self, client: ws_base.WebSocketClientBase, message: open_models.GuardBuyMessage):
-        """
-        有人上舰
-        """
+        """上舰"""
 
-    def _on_open_live_super_chat(
-        self, client: ws_base.WebSocketClientBase, message: open_models.SuperChatMessage
-    ):
-        """
-        醒目留言
-        """
+    def _on_open_live_super_chat(self, client: ws_base.WebSocketClientBase, message: open_models.SuperChatMessage):
+        """醒目留言"""
 
     def _on_open_live_super_chat_delete(
         self, client: ws_base.WebSocketClientBase, message: open_models.SuperChatDeleteMessage
     ):
-        """
-        删除醒目留言
-        """
+        """删除醒目留言"""
 
     def _on_open_live_like(self, client: ws_base.WebSocketClientBase, message: open_models.LikeMessage):
-        """
-        点赞
-        """
+        """点赞"""
+
+    def _on_open_live_enter_room(self, client: ws_base.WebSocketClientBase, message: open_models.RoomEnterMessage):
+        """进入房间"""
+
+    def _on_open_live_start_live(self, client: ws_base.WebSocketClientBase, message: open_models.LiveStartMessage):
+        """开始直播"""
+
+    def _on_open_live_end_live(self, client: ws_base.WebSocketClientBase, message: open_models.LiveEndMessage):
+        """结束直播"""
