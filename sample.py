@@ -83,7 +83,15 @@ async def run_multi_clients():
         ))
 
 
+
 class MyHandler(blivedm.BaseHandler):    # 类变量，将被所有类的实例共享
+    # # 演示如何添加自定义回调
+    # _CMD_CALLBACK_DICT = blivedm.BaseHandler._CMD_CALLBACK_DICT.copy()
+    #
+    # # 看过数消息回调
+    # def __watched_change_callback(self, client: blivedm.BLiveClient, command: dict):
+    #     print(f'[{client.room_id}] WATCHED_CHANGE: {command}')
+    # _CMD_CALLBACK_DICT['WATCHED_CHANGE'] = __watched_change_callback  # noqa
 
     # 心跳监听
     def _on_heartbeat(self, client: blivedm.BLiveClient, message: web_models.HeartbeatMessage):
@@ -119,9 +127,17 @@ class MyHandler(blivedm.BaseHandler):    # 类变量，将被所有类的实例�
               f' （{message.coin_type}瓜子x{message.total_coin}）')
         text_to_speech(f'感谢 {message.uname} 赠送的 {message.num}个 {message.gift_name}，谢谢老板，老板大气！')
 
+
     # 舰长？
     def _on_buy_guard(self, client: blivedm.BLiveClient, message: web_models.GuardBuyMessage):
         print(f'[{client.room_id}] {message.username} 购买{message.gift_name}')
+
+    # def _on_buy_guard(self, client: blivedm.BLiveClient, message: web_models.GuardBuyMessage):
+    #     print(f'[{client.room_id}] {message.username} 上舰，guard_level={message.guard_level}')
+
+    def _on_user_toast_v2(self, client: blivedm.BLiveClient, message: web_models.UserToastV2Message):
+        print(f'[{client.room_id}] {message.username} 上舰，guard_level={message.guard_level}')
+
 
     # 点赞消息处理：PS：可能存在并发问题
     def _click_like(self, client:blivedm.BLiveClient, data: web_models.ClickData):
@@ -136,6 +152,10 @@ class MyHandler(blivedm.BaseHandler):    # 类变量，将被所有类的实例�
 
     def _on_super_chat(self, client: blivedm.BLiveClient, message: web_models.SuperChatMessage):
         print(f'[{client.room_id}] 醒目留言 ¥{message.price} {message.uname}：{message.message}')
+
+    # def _on_interact_word(self, client: blivedm.BLiveClient, message: web_models.InteractWordMessage):
+    #     if message.msg_type == 1:
+    #         print(f'[{client.room_id}] {message.username} 进入房间')
 
 
 def split_and_reassemble(number):
